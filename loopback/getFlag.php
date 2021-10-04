@@ -4,7 +4,7 @@ echo '<html><head><title>Cyber Awareness Month</title><link rel="stylesheet" hre
   if($otp=="169.254.169.254")
  {
 	echo "<p class='s3'> Congratulations!<br> Flag is 'EnableIMDSv2inAWSEC2Instances'</p>";
-	echo "<INPUT Type='submit' VALUE='Close' onClick='window.top.close()'></br>";  
+	echo "<INPUT Type='submit' VALUE='Back' onClick='history.go(-1);return true;'></br>";  
  }
  
 else{
