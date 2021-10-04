@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 
-echo '<html><head><title>Hamara Bank</title><link rel="stylesheet" href="style1.css"><meta http-equiv="Cache-control" content="public"></head><body> <div class="centered"><div id="in" class="border1">';
+echo '<html><head><title>Cyber Bank</title><link rel="stylesheet" href="style1.css"><meta http-equiv="Cache-control" content="public"></head><body> <div class="centered"><div id="in" class="border1">';
  $otp=$_REQUEST['otp'];
   if($otp=="8200")
  {
